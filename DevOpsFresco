@@ -1,0 +1,167 @@
+//*****TCS Internal*******
+DevOps is the union of ___ , ____ and __ to enable continuous delivery of value to end users.
+People, Processes and Products.  --  Correct
+
+Improve quality and performance of the applications is a major driver for switching to DevOps
+True  --  Correct
+
+Understanding of what we are deploying and how we are deploying comes under which habit of DevOps
+Configuration Management  --  Correct
+
+Product Management is one of the 7 DevOps practices
+False  --  Correct
+
+Which of the following is a value of DevOps
+DevOps goals span the entire delivery pipeline  --  Correct
+
+DevOps encompasses _
+Automation  --  Correct
+
+____________ is the primary measure of progress according to Agile Manifesto
+Working Software  --  Correct
+
+*****************************************************************************************************************************
+
+DevOps encompasses culture and collaboration
+True  --  Correct
+
+Change Fail rate is an Agility performance indicator
+False  --  Correct
+
+enables continuous value delivery
+Automation  --  Correct
+
+Minimize conflicts when merging code should be one of your goals while performing branching.
+True  --  Correct
+
+Automation empowers frequent releases and self-service
+True  --  Correct
+
+Which of the following is a benefit of small releases ?
+Faster Feedback  --  Correct
+
+Which of the following is not a benefit of Automation in DevOps ?
+Implants Manual Errors  --  Correct
+
+What is the desire in the organization to push things to production termed as ?
+Live Site Culture  --  Correct
+
+____________ measures complexity of the code and the efficiency of the development systems.
+Change Lead Time  --  Correct
+
+Which of the following can slow down your ability to deliver code effectively ?
+Technical Debt  --  Correct
+
+What is the metric used to measure how quickly are we deploying ?
+Deployment Frequency  --  Correct
+
+*****************************************************************************************************************************
+
+_ is a software engineering approach in which teams produce software in short cycles, ensuring that software can be reliably released at any time.
+Continuous Delivery  --  Correct
+
+_ ensure that code deployed to production environment is not necessarily released to all end users
+Feature Flags  --  Correct
+
+During the Continuous Integration process unit tests are executed during the build .
+True  --  Correct
+
+Continuous Delivery encourages configuration as code.
+True  --  Correct
+
+Continuous Delivery focuses on manual delivery pipeline.
+False  --  Correct
+
+*****************************************************************************************************************************
+
+Treating Infrastructure as a flexible resource is a benefit of Infrastructure and Configuration as Code
+True  --  Correct
+
+______________ testing tests components together in scenarios.
+Integration  --  Correct
+
+_ is the automated system used for continuous integration (Build Code , Create Packages and Run Code.
+Build Pipeline  --  Correct
+
+In Manual Integration Testing Human Intelligence is waged against the application
+True  --  Correct
+
+It is OK if all the environments are not consistent in a DevOps lifecycle
+False  --  Correct
+
+The process of monitoring and learning from a “live site” is known as
+Live Monitoring  --  Wrong
+
+Which of the following is not a type of monitoring ?
+Availability  --  Wrong
+
+Understanding of what we are deploying and how we are deploying comes under which habit of DevOps------------------------Configuration Management
+
+Which of the following is a value of DevOps------------------ DevOps goals span the entire delivery pipeline
+
+DevOps is the union of ___ , ____ and __ to enable continuous delivery of value to end users.---------------People, Processes and Products.
+
+Product Management is one of the 7 DevOps practices-----false
+
+__ is the primary measure of progress according to Agile Manifesto.-----------Working Software
+
+DevOps encompasses _-----automation
+
+DevOps encompasses culture and collaboration-true
+
+Improve quality and performance of the applications is a major driver for switching to DevOps-----------true
+
+_ is a software engineering approach in which teams produce software in short cycles, ensuring that software can be reliably released at any tim---Continuous Deployment
+
+Which of the following is not a benefit of Automation in DevOps ?------------------Implants Manual Errors
+
+
+Change Fail rate is an Agility performance indicator--------------------false
+
+Which of the following is a benefit of small releases ?-----------------Faster Feedback
+
+Which of the following can slow down your ability to deliver code effectively ?--------------Technical Debt
+
+What is the desire in the organization to push things to production termed as ?----------------Live Site Culture
+
+Minimize conflicts when merging code should be one of your goals while performing branching.-----------------true
+
+____________ measures complexity of the code and the efficiency of the development systems.--------------Change Lead Time
+
+
+enables continuous value delivery------------------------Automation
+
+. What is the metric used to measure how quickly are we deploying ?--------------------Deployment Frequency
+
+
+Automation empowers frequent releases and self-service-------true
+
+
+_ ensure that code deployed to production environment is not necessarily released to all end users--------------------Feature Flags
+
+
+During the Continuous Integration process unit tests are executed during the build .-----true
+
+_ is a software engineering approach in which teams produce software in short cycles, ensuring that software can be reliably released at any time.------Continuous Delivery
+
+Continuous Delivery encourages configuration as code.-----------------true
+
+Continuous Delivery focuses on manual delivery pipeline-------------------false
+
+
+is the automated system used for continuous integration (Build Code , Create Packages and Run Code.----------------------Build Pipeline
+
+Treating Infrastructure as a flexible resource is a benefit of Infrastructure and Configuration as Code-------------true
+
+It is OK if all the environments are not consistent in a DevOps lifecycle--false
+
+__ testing tests components together in scenarios.-------Integration
+
+In Manual Integration Testing Human Intelligence is waged against the application----------------true
+
+
+Which of the following is not a type of monitoring ?-------------usage (wrong)
+
+
+The following are benefits of automation in DevOps, except it _________.
+
