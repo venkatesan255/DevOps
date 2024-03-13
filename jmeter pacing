@@ -1,0 +1,72 @@
+
+long start_iteration_ms;
+
+// pacing time defined in the script
+
+float pacing_time_sec  = Float.parseFloat(vars.get("PACING_TIME_SEC"));
+
+// pacing time in ms from seconds
+
+long pacing_time_ms = Math.round(pacing_time_sec * 1000);
+
+// get iteration start time. for 1st iteration it will be 0
+
+String start_teration_ms_temp = vars.get("vStart_iteration_ms");
+
+// for first itration, start time variable will be null as it is not defined yet
+
+if (start_teration_ms_temp == null ) {
+	
+    start_iteration_ms = 0;
+}
+else {
+	
+    start_iteration_ms =  Long.valueOf(start_teration_ms_temp);	// iteration start time of the user
+}
+
+
+// end iteration time will be current system time
+
+long end_iteration_ms = System.currentTimeMillis();
+
+// calculate iteration duration in ms 
+
+long iteration_duration_ms = end_iteration_ms - start_iteration_ms;
+
+// calculate wait time 
+
+long wait_diff_ms = pacing_time_ms - iteration_duration_ms;
+
+if (wait_diff_ms < 0) {
+	
+	wait_diff_ms = 0;
+	
+	vars.put("myDelay", String.valueOf(wait_diff_ms));
+
+/*	
+	log.info(ctx.getThread().getThreadName() + " , pacing_time_ms = " + pacing_time_ms + ", iteration_duration_ms = "
+		+ iteration_duration_ms + " dynamic_iteration_time_ms = " + wait_diff_ms);
+
+*/
+
+	
+	return wait_diff_ms;
+
+}
+
+else {
+
+	vars.put("myDelay","" + wait_diff_ms);
+
+
+/*	
+	log.info(ctx.getThread().getThreadName() + " , pacing_time_ms = " + pacing_time_ms + ", iteration_duration_ms = "
+		+ iteration_duration_ms + " dynamic_iteration_time_ms = " + wait_diff_ms);
+
+*/
+
+	return 0;
+
+}
+
+
